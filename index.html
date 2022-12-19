@@ -12,15 +12,22 @@
     <main>
         <section id="login">
             <div id="image">
-                <img src="images/lock.jpg" alt="Lock">
+                <!--here goes the image-->
             </div>
             <div id="form">
                 <h1>Login</h1>
-                <p>Glad to see you again!<br></p>
+                <h2>Glad to see you again!</h2>
                 <p>Please, sign in to access your existing account.</p>
 
                 <form action="login.php" method="post">
-                    
+                    <p>
+                        <label for="iemail">Email:</label>
+                        <input type="email" name="email" id="iemail" placeholder="xxx@example.com" minlenth="5" maxlenth="20" required><br>
+                    </p>
+                    <p>
+                        <label for="ipass">Password:</label>
+                        <input type="password" name="pass" id="ipass" placeholder="at least 8 characters" minlength="8" maxlenth="12" required>
+                    </p>
                 </form>
             </div>
         </section>
