@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+}
+
+:root{
+    --green: #49a09d;
+    --purple: #5f2c82;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    background-color: var(--purple);
+}
+
