@@ -18,3 +18,9 @@ body{
     background-color: var(--purple);
 }
 
+img{
+    width:150px;
+    display:inline-block;
+}
+
+
