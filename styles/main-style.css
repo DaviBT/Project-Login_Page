@@ -30,8 +30,7 @@ section#login{
     background-color:white;
     border-radius:20px;
     width:250px;
-    height:500px;
-    font-size:1.2em;
+    height:525px;
     line-height:1.5em;
 
     position:absolute;
@@ -48,13 +47,17 @@ section#login{
 
 h1{
     text-align:center;
-    margin:.6em;
+    margin:.5em 0em .5em 0em;
 }
 
 h2{
     font-weight: 200;
     font-size: 1.2em;
     color:#5f2c82;
+    text-align:center;
+}
+
+div#form>p{
     text-align:center;
 }
 
@@ -72,6 +75,85 @@ section#login>div#form{
     padding:10px;
 }
 
-label::before{
-    content:''
+section#login>form{
+    font-size:1em;
+}
+
+form>div{
+    background-color:var(--purple);
+    margin:10px 0px;
+    border-radius:8px;
+    width:100%;
+    height:40px;
+    align-items: center;
+}
+
+div>span{
+    color:white;
+    font-size:2em;
+    width:40px;
+    padding:8px;
+    height:40px;
+}
+
+form>div>input{
+    background-color:var(--green);
+    color:white;
+    width: calc(100% - 45px);
+    height:100%;
+    border-radius:8px;
+    padding:4px;
+    border:0px;
+    transform:translateY(-6px);
+}
+
+form>div>input:focus-within{
+    background-color:white;
+    border:none;
+    color:black;
+}
+
+form>div>label{
+    display:none;
+}
+
+form>input[type=submit] {
+    display:block;
+    font-size:1em;
+    width:100%;
+    height:40px;
+    background-color:var(--green);
+    color:white;
+    border:none;
+    border-radius:5px;
+    transition-duration: .2s;
+    cursor:pointer;
+}
+
+form>input[type=submit]:hover {
+    background-color:#275553;
+}
+
+form>a.button{
+    display:block;
+    text-align:center;
+    margin:5px 0px 0px 0px;
+    border:1px solid var(--green);
+    width:100%;
+    height:20%;
+    background-color:white;
+    text-decoration:none;
+    color:var(--green);
+    font-size:.8em;
+    transition-duration: .3s;
+    border-radius:5px;
+}
+
+form>a.button:hover{
+    background-color:var(--green);
+    color:white;
+}
+
+form>a.button>i{
+    font-size:.8em;
 }

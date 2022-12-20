@@ -35,6 +35,10 @@
     section#login{
         width:80vw;
     }
+
+    section#login>form{
+        font-size:1.2em;
+    }
 }
 
 /*EL devices*/
@@ -45,5 +49,9 @@
 
     section#login{
     width: 90vw;
+    }
+
+    section#login>form{
+        font-size:1.2em;
     }
 }
