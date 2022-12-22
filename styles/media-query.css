@@ -54,4 +54,8 @@
     section#login>form{
         font-size:1.2em;
     }
+
+    form>input{
+        margin-top:18px;
+    }
 }
