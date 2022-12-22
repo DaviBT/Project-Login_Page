@@ -4,7 +4,7 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 
 /*Medium devices*/
-@media screen and (min-width:768px) and (max-width:991px){
+@media screen and (min-width:768px) and (max-width:991px) and (orientation:landscape){
     body{
         background-image:linear-gradient(to bottom, var(--purple), var(--green));
     }
