@@ -1,5 +1,5 @@
 # Project-Login_Page
-<p>Access here: <a rel="external" target="_blank">https://davibt.github.io/Project-Login_Page/</a></p>
+<p>Access here: https://davibt.github.io/Project-Login_Page/</p>
 <h1>Project info</h1>
 <p>This is a simple, but functional login page project. It's responsive and created with HTML5 and CSS3, making use of media queries to suit different screen sizes.</p>
 
