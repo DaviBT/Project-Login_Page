@@ -8,20 +8,20 @@
 
 <h2>Project images</h2>
 <section>
-    <div>
-        <p>Mobile devices</p>
+    <div align="center">
+        <h3>Mobile devices</h3>
         <img src="https://github.com/DaviBT/Project-Login_Page/blob/main/images/mobile.png">
     </div>
-    <div>
-        <p>Medium devices</p>
+    <div align="center">
+        <h3>Medium devices</h3>
         <img src="https://github.com/DaviBT/Project-Login_Page/blob/main/images/medium-devices.png">
     </div>
-    <div>
-        <p>Large devices</p>
+    <div align="center">
+        <h3>Large devices</h3>
         <img src="https://github.com/DaviBT/Project-Login_Page/blob/main/images/large-devices.png">
     </div>
-    <div>
-        <p>Extra large devices</p>
+    <div align="center">
+        <h3>Extra large devices</h3>
         <img src="https://github.com/DaviBT/Project-Login_Page/blob/main/images/el-devices.png">
     </div>
 </section
